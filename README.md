@@ -9,4 +9,21 @@ stability compared to existing methods. An efficient function for sampling from 
 distribution subject to convex polytope restriction regions based on Gibbs sampler.
 
 Author: Ting Fung (Ralph) Ma
+
 email: tingfung.ma@wisc.edu
+
+Examples:
+
+Suppose we would like to sample from multivariate normal $N(\mu, \Sigma)$ subject to the constraints
+
+```{r}
+from trun_mvnt import rtmvn, rtmvt
+
+Mean = np.array([0,0])
+Sigma = np.array([1, 0.5, 0.5, 1]).reshape((2,2))
+
+D = np.array([1,0,0,1,1,-1]).reshape((3,2))
+lower = np.array([-2,-1,-2])
+upper = np.array([2,3,5])
+
+```

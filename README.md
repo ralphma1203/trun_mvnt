@@ -1,4 +1,4 @@
-output: rmarkdown::github_document
+***Sampling from Truncated Multivariate Normal and t Distributions under linear inequality constraints***
 
 This module implements the Efficient sampling algorithm of truncated multivariate (scale) mixtures of normals 
 under linear inequality constraints proposed by Li and Ghosh (2015) ([doi:10.1080/15598608.2014.996690](https://www.tandfonline.com/doi/abs/10.1080/15598608.2014.996690)) under Python environment (analogous to the R package [tmvmixnorm](https://cran.r-project.org/web/packages/tmvmixnorm/index.html)).

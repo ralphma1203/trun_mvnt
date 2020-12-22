@@ -20,10 +20,10 @@ Summary:
 In short, this module can be used to generate random sample of truncated multivariate normal
 (and Student't). Note that the truncation can be in the form of many (linear) constraints.
 
-Suppose we want to draw sample from p-dimensioanl normal <img src="https://render.githubusercontent.com/render/math?math=X_{p\times%201}\sim N(\mu_{p\times%201}, \Sigma_{p\times%20p})"> 
+Suppose we want to draw sample from p-dimensioanl normal <img src="https://render.githubusercontent.com/render/math?math=X_{p\times%201}\sim N(\mu_{p\times%201}, \Sigma_{p\times%20p})">), and similarly for Student's t with df=<img src="https://render.githubusercontent.com/render/math?math=\nu">,
 
 subject to constranst(s): ![formula](https://render.githubusercontent.com/render/math?math=l\leq%20DX\leq%20u&mode=inline),
-where  ![formula](https://render.githubusercontent.com/render/math?math=D&mode=inline) is ![formula](https://render.githubusercontent.com/render/math?math=m\times%20p&mode=inline), even if ![formula](https://render.githubusercontent.com/render/math?math=m>p&mode=inline).
+where  ![formula](https://render.githubusercontent.com/render/math?math=D&mode=inline) is ![formula](https://render.githubusercontent.com/render/math?math=m\times%20p&mode=inline), even if ![formula](https://render.githubusercontent.com/render/math?math=m>p).
 
 
 The core functions rtmvn() and rtmvt() can solve the problem well.

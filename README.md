@@ -1,8 +1,7 @@
 output: rmarkdown::github_document
 
-This module reproduces the Efficient sampling algorithm of truncated multivariate (scale) mixtures of normals 
-under linear inequality constraints proposed by Li and Ghosh (2015) ([doi:10.1080/15598608.2014.996690](https://www.tandfonline.com/doi/abs/10.1080/15598608.2014.996690)) under
-Python environment (analogous to the R package [tmvmixnorm](https://cran.r-project.org/web/packages/tmvmixnorm/index.html)).
+This module implements the Efficient sampling algorithm of truncated multivariate (scale) mixtures of normals 
+under linear inequality constraints proposed by Li and Ghosh (2015) ([doi:10.1080/15598608.2014.996690](https://www.tandfonline.com/doi/abs/10.1080/15598608.2014.996690)) under Python environment (analogous to the R package [tmvmixnorm](https://cran.r-project.org/web/packages/tmvmixnorm/index.html)).
 
 The two cores function rtmvn() and rtmvt() are useful to overcoming difficulties in simulating truncated normal 
 and Student's t distribution respectively. Efficient rejection sampling for simulating truncated univariate normal 
@@ -13,7 +12,6 @@ distribution subject to convex polytope restriction regions based on Gibbs sampl
 author: Ting Fung (Ralph) Ma
 
 email: tingfung.ma@wisc.edu (feel free to email me if you find any bug!)
-
 
 Summary:
 

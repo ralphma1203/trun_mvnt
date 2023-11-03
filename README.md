@@ -11,7 +11,7 @@ distribution subject to convex polytope restriction regions based on Gibbs sampl
 
 author: Ting Fung (Ralph) Ma
 
-email: tingfung.ma@wisc.edu (feel free to email me if you find any bug!)
+email: tingfung@mailbox.sc.edu (feel free to email me if you find any bug!)
 
 Summary:
 

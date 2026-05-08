@@ -175,6 +175,11 @@ def imp(a,b):
         
     # Case 3: [a,b], a>=0
     def imp_case3(a,b):
+        if a > b:
+            tmp = b
+            b = a
+            a = tmp
+        
         if a <= 0.25696:
             blower1 = lowerb1(a)
             if b <= blower1:
